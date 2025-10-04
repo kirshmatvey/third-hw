@@ -131,7 +131,7 @@ select:hover,
 .skills-block {
     /* 📍 Свойства flexbox для расположения формы над элементами с классом .label */
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
 }
 
 .skills {
@@ -156,7 +156,6 @@ select:hover,
 
 form {
     margin-bottom: 40px;
-    order: -1
 }
 
 .text-field {
@@ -208,8 +207,7 @@ footer {
     background-color: rgba(163, 167, 255, 0.3);
     padding: 26px 0;
     /* 📍 Свойство для расположения ссылки горизонтально по центру */
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .footer-link {
